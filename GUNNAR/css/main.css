@@ -10,3 +10,126 @@
   display: table;
   clear: both;
 }
+
+body {
+	font-family: 'Roboto Slab', serif;
+	background: RGBA(73, 61, 89, 1.00);
+	color: white;
+}
+
+/*
+ Typography
+*/
+h2{
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin: 0 0 10px 0;
+}
+
+h3{
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	margin: 0 0 10px 0;
+}
+
+p{
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	margin: 0 0 20px 0;
+	color: RGBA(177, 163, 195, 1.00);
+	line-height: 26px;
+}
+
+/*
+ Site Specifics
+*/
+.site {
+	padding: 50px;
+}
+
+.icon {
+	border: 2px solid RGBA(255, 208, 101, 1.00);
+	padding: 15px;
+	margin: 0 auto 20px auto;
+	width: 84px;	
+	border-radius: 50%;
+}
+
+.icon .icon-inner {
+	background: RGBA(255, 208, 101, 1.00);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+hr.lilshitty {
+	margin: 0;
+	border: 0;
+	border-bottom: 2px solid RGBA(177, 163, 195, 1.00);
+	margin: 0 auto 10px auto;
+	width: 70px;
+}
+
+header.north .subtitle{
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin: 0 0 50px 0;
+	color: RGBA(177, 163, 195, 1.00);
+}
+
+.columns .column{
+	width: 33.33%;
+	float: left;
+	padding: 0 20px;
+}
+
+.loader {
+  background: RGBA(86, 73, 105, 1.00);
+  margin: 0 0 10px 0;
+  border-radius: 5px;
+/*   overflow: hidden; */
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow: hidden;
+}
+
+.loader-inner {
+  background: RGBA(255, 208, 101, 1.00);
+  width: 55%;
+  padding: 5px 10px;
+}
+
+.loader-inner-text,
+.loader-inner-value {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+}
+
+.loader-inner-text {
+  float: left;
+  color: white;
+}
+
+.loader-inner-value {
+  float: right;
+  font-weight: bold;
+}
+
+.dad {
+	padding: 25px;
+	border: 5px solid RGBA(255, 208, 101, 1.00);
+	border-radius: 50%;
+}
+
+.dad img{
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+
+
