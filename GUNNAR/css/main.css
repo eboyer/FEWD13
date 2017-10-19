@@ -32,7 +32,15 @@ h3{
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 0.1em;
-	margin: 0 0 10px 0;
+	margin: 0 0 50px 0;
+}
+
+h4{
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	margin: 0 0 20px 0;
+	color: RGBA(177, 163, 195, 1.00);
+	line-height: 26px;
 }
 
 p{
@@ -88,6 +96,10 @@ header.north .subtitle{
 	padding: 0 20px;
 }
 
+.loaders {
+	margin: 0 0 30px 0;
+}
+
 .loader {
   background: RGBA(86, 73, 105, 1.00);
   margin: 0 0 10px 0;
@@ -131,5 +143,20 @@ header.north .subtitle{
 	border-radius: 50%;
 }
 
+.social {
+	border: 1px solid RGBA(177, 163, 195, 1.00);
+	padding: 5px;
+	border-radius: 50%;
+	width: 37px;
+	float: left;
+	margin: 0 25px 0 0;
+}
+
+.social .social-inner {
+	background: RGBA(177, 163, 195, 1.00);
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
 
 
