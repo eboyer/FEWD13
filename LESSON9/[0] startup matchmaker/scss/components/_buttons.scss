@@ -1,0 +1,13 @@
+.button,
+.button:visited {
+  font-family: $font-family;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #222;
+  border-radius: 5px;
+  background: #deece6;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+}
