@@ -18,13 +18,15 @@
 
 /* Global
    ================================================================ */
+html {
+  font-size: 20px;
+}
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 1.5;
   color: #222;
-
   -webkit-font-smoothing: antialiased;
 }
 
@@ -44,7 +46,7 @@ li {
    ================================================================ */
 h1 {
   font-family: "Merriweather", serif;
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 1;
   float: left;
   margin-top: 20px;
@@ -53,13 +55,13 @@ h1 {
 h2 {
   font-family: "Source Sans Pro";
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.5rem;
   margin: 0;
 }
 
 h3 {
   font-family: "Merriweather", serif;
-  font-size: 25px;
+  font-size: 1.25rem;
   margin: 0;
 }
 
@@ -164,9 +166,9 @@ header nav strong {
    ================================================================ */
 .tagline {
   font-family: "Merriweather", serif;
-  font-size: 25px;
+  font-size: 1.25rem;
   font-style: italic;
-  line-height: 1em;
+  line-height: 1rem;
   margin: 0;
   padding: 25px;
   text-align: center;
@@ -203,16 +205,27 @@ header nav strong {
   float: left;
   width: 33.333333334%;
   margin: 25px 0;
-  padding: 24px 38px;
+  padding: 24px 38px 54px 38px;
   border-right: 1px solid rgba(0,0,0,.15);
+  position: relative;
+  height: 280px;
 }
 
 .info:last-of-type {
   border-right: none;
 }
 
+.info .button{
+  position: absolute;
+  bottom: 0;
+  left: 38px;
+  right: 38px;
+}
 
 @media screen and (max-width: 1200px) {
+  html{
+    font-size: 16px;
+  }
   .site {
   }
   .boundary {
@@ -249,9 +262,16 @@ header nav strong {
     border-bottom: 1px solid rgba(0,0,0,.15);
     margin: 0;
     padding: 38px;
+    height: auto;
   }
   .info:last-of-type {
     border-bottom: 0;
+  }
+  .info .button{
+    position: static;
+    left: auto;
+    right: auto;
+    bottom: auto;
   }
 }
 
